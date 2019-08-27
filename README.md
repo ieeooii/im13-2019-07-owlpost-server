@@ -6,7 +6,7 @@
 
 root file은 [app.js](server/app.js)입니다.
 DB shcema는 `server/models`에 있으며 routing하는 부분 또한 `server/routes`에 있습니다.
-배포된 mongoDB를 연결하는 주소는 [connection.js](server/models/connection.js) 15번째줄 입니다. 배포 환경이 아닌 로컬 환경에서 테스트해야 한다면 터미널에서 monogoDB를 실행 시킨후 URI를 `mongodb://localhost:${port}/${DB_NAME}`로 변경이 필요합니다.
+배포된 mongoDB를 연결하는 주소는 [connection.js](server/models/connection.js) 15번째줄 입니다. 배포 환경이 아닌 로컬 환경에서 테스트해야 한다면 터미널에서 mongoDB를 실행 시킨후 URI를 `mongodb://localhost:${port}/${DB_NAME}`로 변경이 필요합니다.
 
 ### Prerequisites
 
