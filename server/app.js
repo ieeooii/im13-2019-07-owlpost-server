@@ -27,5 +27,5 @@ app.get('/', (req, res) => {
 
 app.listen(5000, () => {
   // eslint-disable-next-line no-console
-  console.log('sucess!');
+  console.log('success!');
 });
